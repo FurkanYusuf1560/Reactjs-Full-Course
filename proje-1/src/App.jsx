@@ -11,10 +11,10 @@ function App() {
   return (
    <div>
     <h1>Reactjs Concepts </h1>
-    {/* <ClassBasedComponent/>
-    <FuctionalComponents/> */}
+    <ClassBasedComponent/>
+    {/* <FuctionalComponents/> */}
 
-    <ProductList listOfProducts={dummyProductData} name="furkan" city="ankara" />
+    {/* <ProductList listOfProducts={dummyProductData} name="furkan" city="ankara" /> */}
    </div>
   )
 }
