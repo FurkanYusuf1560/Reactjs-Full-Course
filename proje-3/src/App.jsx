@@ -6,6 +6,7 @@ import RecipeDetailsPage from './pages/recipe-details'
 import NotFoundPage from './pages/not-found'
 import Layout from './components/layout'
 import ReactHookFormExample from './pages/reaact-hook-form-example'
+import Hooks from './pages/hooks'
 
 
 function App() {
@@ -26,8 +27,9 @@ function App() {
         <Route path='/home' element={<Layout/>}>
           {/* <Route path='recipe-list' element={<RecipeList/>}/>
           <Route path='comments-list' element={<CommentsList/>}/>
-          <Route path='recipe-list/:id' element={<RecipeDetailsPage/>}/> */}
-          <Route path='react-hook-form' element={<ReactHookFormExample/>}/>
+          <Route path='recipe-list/:id' element={<RecipeDetailsPage/>}/> 
+          <Route path='react-hook-form' element={<ReactHookFormExample/>}/> */}
+          <Route path='hooks' element={<Hooks/>}/>
 
         </Route>
 
